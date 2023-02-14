@@ -29,16 +29,6 @@ RabbitMQ management portal is shown below
   and the other queue that contains all unfiltered messages for the charging module.
 * The destination-service sends back an acknowledgment that it received a message but for the charging module it's fire and forget (no manual acknowledgment).
 
-### What I focussed on ###
-
-* Building a program with a pub-sub design system and microservices architecture that satisfies the messaging and filtering requirements.
-* Delivering well-structured clean code.
-
-### What I didn't focussed on ###
-
-* I did not build any client UI for this project it only consists a rest endpoint inorder to send messages.
-* The reason is because, I didn't think that's what the assessment is designed to evaluate.
-
 
 ### How to run the program? ###
 
